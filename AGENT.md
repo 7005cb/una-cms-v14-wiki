@@ -2,6 +2,16 @@
 
 This repo is intended as a structured knowledge base for AI coding agents working with UNA CMS V14.
 
+## Repo structure and entry point
+
+- All wiki content lives under `wiki-name/`.
+- Each topic is a folder with a single `Skills.md` file:
+  - Example: `wiki-name/Home/Skills.md`, `wiki-name/Architecture/Skills.md`, `wiki-name/Code-Convention/Skills.md`.
+- The logical “home page” for the wiki is:
+  - `wiki-name/Home/Skills.md`
+
+When using this repo as a knowledge source, treat `wiki-name/Home/Skills.md` as the starting point, then follow links to other `*/Skills.md` files.
+
 ## How agents should use this repo
 
 When generating, reviewing, or refactoring UNA CMS code:
